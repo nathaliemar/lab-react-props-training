@@ -1,0 +1,98 @@
+.id-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+  gap: 10px;
+  height: fit-content;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.id-card p {
+  line-height: 1.2em;
+  padding: 0;
+  margin: 0;
+}
+
+.id-card span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.greetings,
+.random,
+.box-color {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.box-color {
+  text-align: center;
+}
+
+.credit-card {
+  width: 300px;
+  height: 200px;
+  border-radius: 1em;
+  padding: 1em;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.credit-card img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 20px;
+}
+
+.card-text {
+  position: relative;
+  top: 50px;
+  margin: 0;
+  line-height: 1em;
+}
+
+.card-number {
+  font-size: 2em;
+}
+
+.card-text span {
+  margin-right: 10px;
+}
+
+.driver-card {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  background-color: #455eb5;
+  border-radius: 1em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 120px;
+}
+.text-container p {
+  margin: 0;
+  line-height: 1.2em;
+}
+
+.img-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.driver-name {
+  font-weight: 700;
+}
